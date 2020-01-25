@@ -12,6 +12,6 @@ I am not affiliated with any political party or any firm that is displayed in my
 
 
 ## Table of Contents:  
-### Aksa Magnet CD  
-Introductory CD autplay for a Turkish company that makes machinery products.
-https://htmlpreview.github.io/?https://github.com/MP98xD/Projects-Showcase/blob/master/AksaMagnetCD/index.htm
+* **Aksa Magnet CD**  
+Introductory CD autplay for a Turkish company that makes machinery products.  
+[Aksa Magnet CD Preview](https://htmlpreview.github.io/?https://github.com/MP98xD/Projects-Showcase/blob/master/AksaMagnetCD/index.htm)
