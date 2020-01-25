@@ -1,0 +1,108 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Aksa Magnet</title>
+    <link rel="shortcut icon" href="icon.ico" type="image/x-icon">
+<style type="text/css">
+	body {
+		font-family: "arial", sans-serif;
+		background-image: url(images/bg01.jpg);
+		background-repeat: repeat-x;
+		background-position: 0 227px;
+	}
+	#webpage {
+		width: 1024px;
+		margin: 0 auto;
+		margin-top: 34px;
+		background-image: url(images/background.png);
+		background-position: 0 193px;
+		background-repeat: no-repeat;
+		font-family: "arial", sans-serif;
+	}
+	
+	a img {border: none;}
+	
+	#header {
+		background-image: url(images/aksalogo.png);
+		width: 237px;
+		height: 170px;
+		margin-bottom: 68px;
+	}
+	
+	#bottom {
+		font-family: "arial", sans-serif;
+		font-size: 51px;
+		margin-top: 30px;
+	}
+	
+	#bottom a {
+		text-decoration: none;
+		color: #FFFFFF;
+	}
+	
+	#bottom img {
+		display: block;
+		margin-top: -10px;
+	}
+	
+	#footer {margin-left: 50px;}
+	
+	#footer img {float: left;}
+	
+	#footer font {
+		font-family: "arial", sans-serif;
+		font-size: 12px;
+		color: #000;
+		margin-left: 10px;
+	}	
+	#helisGrafik {
+		float: right;
+		margin: -15px 50px; 0 0;
+	}
+	
+	#helisGrafik a {
+		font-family: "arial", sans-serif;
+		font-size: 12px;
+		color: #000;
+		text-decoration: none;
+	}
+	
+	#video img:hover {src:: url(images/video1.png);}
+	
+	#katalog img:hover {src: url(images/katalog1.png);}
+	
+</style>
+
+<script type="text/javascript">
+	window.onload = function () {
+		document.getElementById("video").onmouseover = function () {this.childNodes[0].src = "images/video1.png"}
+		document.getElementById("video").onmouseout = function () {this.childNodes[0].src = "images/video2.png"}
+		
+		document.getElementById("katalog").onmouseover = function () {this.childNodes[0].src = "images/katalog1.png"}
+		document.getElementById("katalog").onmouseout = function () {this.childNodes[0].src = "images/katalog2.png"}
+	}
+</script>
+</head>
+<body>
+<div id="webpage">
+    <center><div id="header"></div>
+    <div id="pageContents">
+    	<a href="contents/video.wmv" style="margin-right: 66px;" id="video" target="_blank"><img src="images/video2.png" width="408" height="258" /></a>
+    	<a href="contents/katalog.pdf" id="katalog" target="_blank"><img src="images/katalog2.png" width="235" height="295" /></a>
+        <div id="bottom">
+            <a href="http://www.aksamagnet.com.tr" target="_blank">www.aksamagnet.com.tr</a>
+            <img src="images/hand.png" width="60" height="53" />
+        </div></center>
+        <div id="footer">
+            <img src="images/kosgeblogo.png" width="76" height="54" />
+            <font>20 Mayıs 2013</font><br />
+            <font>1.000 Adet basılmıştır</font><br />
+            <font>www.kosgeb.gov.tr</font>
+		</div>
+        <div id="helisGrafik"><a href="http://www.helisgrafik.com" target="_blank">Helis Grafik</a></div>
+        <center><div id="footerLogo" style="margin-top: 20px;"><img src="images/axmaglogo.png" width="158" height="60" /></div></center>
+    </div>
+</div>
+</body>
+</html>
