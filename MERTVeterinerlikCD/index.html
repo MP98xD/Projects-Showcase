@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>MERT VETERINERLIK</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-9" />
+    <link rel="shortcut icon" href="setup.ico" type="image/x-icon">
+    <!-- stylesheets -->
+    <style type="text/css">
+		* {margin: 0; padding: 0;}
+		body {background: url(img/BG.jpg) #FFF no-repeat top center;}
+		a {color: #000; text-decoration: none;}
+		.clear {clear: both;}
+		#webSite {width: 1200px; margin: 0 auto;}
+		#headerTextLeft {
+			background-image:url(img/headerTextLeft.png);
+			width: 324px;
+			height: 42px;
+			float: left;
+			margin: 142px 0 0 85px;
+		}
+		#headerTextRight {
+			background-image:url(img/headerTextRight.png);
+			width: 277px;
+			height: 42px;
+			float: right;
+			margin: 142px 105px 0 0;
+		}
+		#links div a {float: left;}
+		#links div a p {font-size: 18px; font-family: "arial", sans-serif;}
+		#katalog {
+			width: 207px;
+			height: 269px;
+			background-image: url(img/Nkatalog.png);
+			float: left;
+			margin: 25px 0 0 40px;
+		}
+		#katalog a {width: 207px; height: 269px;}
+		#katalog a p {margin-top: 265px;}
+		
+		#belgelerimiz {
+			width: 194px;
+			height: 269px;
+			background-image: url(img/Nbelgeler.png);
+			float: left;
+			margin: 115px 0 0 0px;
+		}
+		#belgelerimiz a {width: 194px; height: 269px;}
+		#belgelerimiz a p {margin-top: 272px;}
+		
+		#tanitimFilmi {
+			width: 317px;
+			height: 271px;
+			background-image: url(img/NtanitimVideo.png);
+			float: left;
+			margin: 233px 0 0 10px;
+		}
+		#tanitimFilmi a {width: 317px; height: 271px;}
+		#tanitimFilmi a p {margin-top: 260px;}
+		
+		#videolar {
+			width: 200px;
+			height: 194px;
+			background-image: url(img/NvideoGaleri.png);
+			float: left;
+			margin: 186px 0 0 0px;
+		}
+		#videolar a {width: 200px; height: 194px;}
+		#videolar a p {margin-top: 205px;}
+		
+		#fotoGaleri {
+			width: 168px;
+			height: 165px;
+			background-image: url(img/NfotoGaleri.png);
+			float: left;
+			margin: 121px 0 0 10px;
+		}
+		#fotoGaleri a {width: 168px; height: 165px;}
+		#fotoGaleri a p {margin-top: 177px;}
+		#footer {padding: 30px 0 0 0; font-family: "arial", sans-serif; font-size: 12px;}
+		#copyright {float:left; margin-left: 100px;}
+		#icrea {float: right; margin-right: 100px;}
+	</style>
+    <script type="text/javascript">
+		function thisHover(thisObject, img) {thisObject.parentNode.style.backgroundImage="url(img/H" + img + ".png)";}
+		function thisOut(thisObject, img) {thisObject.parentNode.style.backgroundImage="url(img/N" + img + ".png)";}
+	</script>
+</head>
+<body>
+<div id="webSite">
+    <div id="headerTextLeft"></div>
+    <div id="headerTextRight"></div>
+    <div class="clear"></div>
+	<div id="links">
+        <div id="katalog"><a href="files/MertVeterinerlikKatalog2013.pdf" target="_blank" onMouseOver="thisHover(this, 'katalog');" onMouseOut="thisOut(this, 'katalog');"><center><p>Katalog</p></center></a></div>
+        <div id="belgelerimiz"><a href="Belgeler/index.html" target="_blank" onMouseOver="thisHover(this, 'belgeler');" onMouseOut="thisOut(this, 'belgeler');"><center><p>Belgelerimiz</p></center></a></div>
+        <div id="tanitimFilmi"><a href="files/MertTanitim.mp4" target="_blank" onMouseOver="thisHover(this, 'tanitimVideo');" onMouseOut="thisOut(this, 'tanitimVideo');"><center><p>Tanıtım Filmi</p></center></a></div>
+        <div id="videolar"><a href="Video/index.html" target="_blank" onMouseOver="thisHover(this, 'videoGaleri');" onMouseOut="thisOut(this, 'videoGaleri');"><center><p>Videolar</p></center></a></div>
+        <div id="fotoGaleri"><a href="fotoAlbumu/index.html" target="_blank" onMouseOver="thisHover(this, 'fotoGaleri');" onMouseOut="thisOut(this, 'fotoGaleri');"><center><p>Foto Galeri</p></center></a></div>
+    </div>
+    <div class="clear">
+    <div id="footer"><div id="copyright">Copyright &copy; 2013</div><div id="icrea"><a href="http://www.icrea.com.tr/" target="_blank" title="iCrea.com.tr"><img src="img/icrea.png" width="28" height="28" alt="iCrea.com.tr" /></a></div></div>
+</div>
+</body>
+</html>

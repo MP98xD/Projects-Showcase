@@ -1,0 +1,157 @@
+/* CSS Document */
+    #slider_con{
+        display:block;
+        clear:both;
+        padding:0px;
+		margin:0;
+        width:847px;
+        margin:0 auto;
+        height:278px;
+        position:relative;
+    }
+        
+#slider_area{
+        overflow:hidden;
+        width:847px;
+        margin:0 auto;
+        position:relative;
+        z-index:1;
+        height:350px;
+    }
+        
+    .slide{
+        width:847px;
+    }
+
+    .slide .image{
+        margin:0;
+        padding:0;
+        border:0;
+        position:relative;
+        top:0;
+        left:0;
+    }
+        
+    /* slider right side */
+    #slider_area .right_side{
+        height:260px;
+        width:290px;
+        padding:70px 10px 10px 10px;
+        position:absolute;
+        left:610px;
+        z-index:6;
+        right:0;
+        top:0;
+        margin:0px 10px;
+        font-size:12px;
+        overflow:hidden;
+    }
+        
+    .slider_curv{
+        height:56px;
+        position:absolute;
+        top:278px;
+        z-index:940;
+        width:847px;
+        clear:both;
+    }
+        
+    /* slider numbers*/
+    #numbers{
+        z-index:999;
+        padding:0px 0 0 0px ;
+        position:absolute;
+        bottom:60px;
+        left:13px;
+        width:14px;
+    }
+
+    #numbers img{
+        padding:2px 0;
+    }
+        
+    /* active number style*/
+    #numbers a { 
+        display:block;
+        outline: none;
+		
+    }
+
+
+    /* slider numbers*/
+    /* active number style*/
+    #numbers    a{ 
+    }
+    
+    #numbers   a:hover{ 
+    }
+    
+    #numbers   a.activeSlide{ 
+    }
+
+    .sidebar .box .brands{
+       list-style:none;
+       margin:0;
+       padding:0;
+       border:0;
+   }
+   
+   .sidebar .box .brands li{
+       float:left;
+       margin:0 5px;
+       border:0;
+   }
+   
+   /*Sub page menu*/
+    #sub_menu  li a{
+        line-height:18px;	
+        padding-left:15px;
+        text-decoration:none;
+        border:0;           
+    }
+    
+    #sub_menu  li a:hover{
+    }
+        
+    #sub_menu li ul {	
+	margin:0px 0 0 5px;
+	background:none;
+	list-style: none;
+	list-style-position: inside;
+    }
+	
+    #sub_menu  li ul li{
+	padding:3px 0 4px 0;
+	margin:0 0 0 10px;
+	background:none;
+	border-bottom:0px;
+    }
+    
+    #sub_menu  li ul li a{
+	background:transparent url(../images/arrow.jpg) no-repeat;
+	font-size:11px;
+    }
+
+    #sub_menu  li ul li a:hover{
+	background:transparent url(../images/arrow.jpg) no-repeat;
+	font-size:11px;
+    }    
+img {
+        border:0px;
+        margin:0px;
+        padding:0px;
+    }
+
+ #numbers    a{ 
+        background: transparent url(../resimler/slider_points.png) right top no-repeat;
+    }
+    
+    #numbers   a:hover{ 
+        background: transparent url(../resimler/slider_points.png) left top no-repeat;
+    }
+    
+    #numbers   a.activeSlide{ 
+        background: transparent url(../resimler/slider_points.png) left top no-repeat;
+    }
+
+

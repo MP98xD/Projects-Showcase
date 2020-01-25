@@ -1,0 +1,32 @@
+			<a href="muzeler.php?muze=kocaeli" class="clicked">KOCAELI MÜZESI</a> - 
+			<a href="muzeler.php?muze=sakarya">SAKARYA MÜZESI</a> - 
+			<a href="muzeler.php?muze=duzce">DÜZCE MÜZESI</a> - 
+			<a href="muzeler.php?muze=bolu">BOLU MÜZESI</a>
+		</div>
+		<hr color="#5A5748" width="940" size="1" style="margin: 10px 17px 0 30px;" />
+		<div id="muzeler">
+		    <img src="images/muzeler/kocaeli.png" width="940" height="495" />
+		    <p>KOCAELI MÜZESI</p>
+<div>
+Roma’ya baskentlik yapmis bu essiz il öteden beri bir müzeye ihtiyaç duymaktaydi. Çesitli yollarla açiga çikan eserlerin büyük bölümü önceleri Istanbul Arkeoloji Müzesine tasinmaktaydi. Izmit Halkevi Tarih ve Müze Subesi 1935 yilinda bu degerli eserleri baska bir sehre göndermek yerine Izmit'te sergileyebilmek için çaba göstermistir. Müze binasi olarak da Mimar Sinan’in eseri olan Yeni Cuma Camii düsünülmüstür. Ancak bu yapi askeriyenin elinde oldugundan binanin bosaltilabilmesi için Valilige ve Vakiflar Müdürlügüne basvurulmustur. Bu çaba sonuçsuz kalmistir; ancak, bu arada eserler toplanmaya baslanmis ve Necati Bey Ilkögretim Okulu adeta bir depo-müze haline gelmistir. Nihayet 1965 yilinda Müzeler Genel Müdürlügünün onayi ile Kasri Hümayun müze olarak açilmis ve Izmit ilk müzesine kavusmustur. Daha sonra müzecilik çalismalari hiz kazanmis ve 1987 yilinda, 1776 tarihli üç katli Saatçi Ali Efendi Konagi Etnografya Müzesi olarak hizmete açilmistir. Yine ayni yil Gebze Ilçesi Eskihisar köyündeki müzeci Osman Hamdi Bey’e ait ev kamulastirilmis ve ziyarete açilmistir.
+<br /><br />
+1993 yilina gelindiginde ise Kasr-i Hümayunun onarima girmesi sebebiyle bir kisim küçük eserler Etnografya Müzesine tasinmistir. Özellikle bahçe teshirinde yer alan daha kütlevi mimari parçalar, essiz mevsim heykelleri gibi eserler 1998 yilinda bugünkü Fuar alaninin bahçesine yetkililerce, hiçbir koruma ve önlem gelistirilmeden adeta sürgüne gönderilmistir. Izmit müzecilik alanindaki gelisimini sürdürememis ve uzunca bir süre arkeoloji müzesinden mahrum kalmistir.
+<br /><br />
+2006 yilina gelindiginde ise Müze için yeni bir alan bulunmus ve uzunca zamandir mezbelelik olan alanda onarim ve düzenleme faaliyetlerine baslanmistir. Burasi sehirde Eski Gar alani ismiyle anilan, 1873 yilinda demiryolunun yapimindan sonra Alman Mimar Otto Ritter tarafindan yapildigi düsünülen Gar Binasi ve bu alana ilerleyen yillarda eklenen yapi topluluklarindan olusmaktadir. Tamami 19 dönüm olan alanin planlama çalismalari sirasinda 11 dönümlük kisim Arkeoloji ve Etnografya Müzesine ayrilarak Müze fonksiyonu verilmistir. Müze alani içerisinde tamir atölyesi, su deposu, lojman binasi gibi daha önceki islevine ait yapilar bulunmaktadir. Alanda bulunan iki adet tekel binasi birlestirilerek teshir salonlari ve 131 kisilik konferans salonu olusturulmustur. Yeni müzenin tamamlanmasi ile Saatçi Ali Efendi Konagi’ndan bu yeni alana tasinilmis ve 20 Haziran 2007 tarihinde müze yeni teshiri ile beraber ziyarete açilmistir. Yine ayni yil onarimi tamamlanarak, teshiri hazirlanan Kasr-i Hümayun “Saray Müze” konsepti ile 16 Ocak 2007 günü ziyarete açilmistir.
+<br /><br />
+515 m2‘sergi alani 1 adet sikkeler vitrini, 18 adet arkeolojik eserler vitrini, 12 adet etnografik eserler vitrini ve ilk kez 2011 yilinda planlanip teshire açilan 2 adet geçici sergi vitrininden olusmaktadir.
+<br /><br />
+Müzenin giris bölümünde yer alan sikke seksiyonunda Arkaik, Klasik, Helenistik, Roma, Bizans, Abbasi, Sasani, Emevi, Osmanli gibi neredeyse tüm çaglari kapsayici genis bir koleksiyon yer almaktadir. Bu sikkelerden özelikle Nicomedia’ya iliskin olanlar son derece çarpici ve güzel örnekler arasinda: Nicomedia’nin kurucu ailesinden II. Nicomedes Sikkesi, Nicomedia tapinaklarini tanriça Demeter elinde tasvir eden sehir sikkesi ve 123 depreminde tas üstünde tas kalmayan Nicomedia’yi onartan Imparator Hadrianus’a Kent Meclisinde verilen “RESTITUTOR NICOMEDIA” (Nicomedia’yi yenileyen) ünvanini gösterir sikke bunlar arasinda yer almaktadir.
+<br /><br />
+Müze sergi salonunun büyük bölümünü olusturan Arkeoloji seksiyonunda ise, koleksiyonun destekledigi ölçüde Paleolitik Dönem’den baslayarak Osmanli Dönemi’ne kadar kronolojik bir teshir olusturulmaya çalisilmistir. Bu bölümde 30000 yil önce Kefken’i mesken tutmus Tas Çagi Insanlari’ndan, 2700 yil önce Megara’dan yola çikarak Basiskele’ye yerlesip Astakos sehrini kuranlarin hazin öyküsünü; Roma’ya baskentlik yapmis dünyanin dördüncü büyük kentinden, tas üstünde tasin kalmadigi, depremin her seferinde basa döndürdügü sehrin öyküsünü; Konstantin’in yasamini sekillendiren kentten, agaç denizine, arkalarini daglara vermis kible tarafindan denize bakan sehrin Nicomedia’nin, Iznik’in, Izmit’in, Kocaeli’nin hikâyesini bulur ziyaretçiler.
+<br /><br />
+Sergi salonunun diger bölümünü olusturan Etnografya seksiyonunda ise Osmanlinin seçkin ve günlük kültürüne dair anlatimlar yer almaktadir. Erkeklerin eglencesini yansitan selamlik, genç kizin hayatindaki en önemli günlerinde birini anlatan kina gecesi, dünyaca ünlü Türk hamami, essiz mutfak kültürünü yansitan vitrinleri ile seçkin Türk kültürünün yansimalari izlenebilecektir.
+<br /><br />
+Geçici sergi vitrinlerinden birinde ise bir Osmanli Dönemi “Dükkân” i canlandirilmistir. Burada sergilenen eserlerin yaklasik 150 yil öncesine ait gerçek dönem fiyatlari ile sergilenmesi ziyaretçiler açisindan son derece ilgi çekici olmus, Ahi Teskilati anlatimiyla da bu konudaki bilgi ihtiyacini karsilamaktadir.
+<br /><br />
+Bir diger geçici sergi ise “Kimdir burada yatan ey yolcu! Bir bak ve Tani!” diye çaglar öncesinden sesleniyor izleyicilerine ve Nicomeadia’da ölümü anlatiyor: Anasiz kalan evlatlarin, kocasiz kalan kadinlarin feryatlari isitiliyor adeta.
+<br /><br />
+Bunun yani sira Müze Bahçesinde açik alan teshiri de yer almaktadir. Burada Kocaeli’de ortaya çikan lahitler, mezar stelleri, heykeller, pitoslar ve Nicomedia’nin baskentlik dönemine isaret eden yapilardan geri kalan unsurlar sergilenmektedir.
+<br /><br />
+Günümüzde ise Kocaeli Müzesi, çesitli kurtarma kazilari ile kentin bilinmeyenlerini aydinlatmaya çabalayan, son yillarda yillik ortalama 3000 adet eser ekspertizi yaparak müze koleksiyonunu genisletmeye ugrasan, yeni sergi ve sergileme teknikleri ile 30.000 üzerindeki ziyaretçisini memnun etmeye çalisan, yer aldigi projeler ile kültür hayatina önemli katkilar saglayan hedefini hep bir adim ileriye tasiyan Kocaeli’nin parlayan yildizlarindan biri olmustur.
+</div>

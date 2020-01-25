@@ -1,0 +1,30 @@
+/* CSS Document */
+body{margin:0; padding:0; background:url(../resimler/arkaPlan.jpg) repeat-x #FFFFFF; font-family:Arial, Helvetica, sans-serif;}
+.ustBanner{width:840px; height:155px; margin-top:20px;  background:url(../resimler/ustGugum.png) no-repeat; background-position: right 1px; }
+.linkArka{ width:885px; height:55px; background:url(../resimler/linkArka.png) repeat-x; text-align:center;}
+
+.linkUst a{ text-decoration:none; color:#000; font:17px Arial, Helvetica, sans-serif; padding:0 20px;}
+.linkUst:hover{background:#f15a2a;}
+.active{background:#f15a2a; }
+.active a{text-decoration:none; color:#000; font:17px Arial, Helvetica, sans-serif; padding:0 20px;}
+
+.urunLink a{text-decoration:none; color:#000000; font-family:Arial, Helvetica, sans-serif; font-size:12px;}
+.urunLink a:hover{text-decoration:none; color:#006767; text-decoration:underline;}
+.urunBilgi{font-size:13px;}
+.iletisim{ font-size:12px;}
+.iletisim a{ text-decoration:none; color:#000000;}
+.iletisim a:hover{ text-decoration:underline;}
+.iletisimForm input{ width:250px;}
+.iletisimForm textarea{ width:250px;}
+.iletisimForm{padding-bottom:10px;}
+
+.hakkimizda{font:15px/1.5 Arial, Helvetica, sans-serif; text-align:left;}
+.copy { width:885px; height:36px; background:url(../resimler/altArka.png) repeat-x;}
+
+.imza{text-align:center; font-family:Arial, Helvetica, sans-serif; font-size:12px;}
+.linkArka a p {
+	padding: 0;
+	margin: 0;	
+}
+.linkArka a font {display: block; font-size: 12px; color: #9f9f9f; margin-top: -3px;}
+.linkArka a {float: left; font-size: 14px; font-weight: 500;}

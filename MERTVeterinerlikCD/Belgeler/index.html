@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>MERT VETERINERLIK</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-9" />
+    <!-- stylesheets -->
+    <link rel="stylesheet" type="text/css" href="source/jquery.fancybox.css?v=2.1.4" media="screen" />
+	<link rel="stylesheet" type="text/css" href="source/helpers/jquery.fancybox-thumbs.css?v=1.0.7" />
+    <link rel="shortcut icon" href="../setup.ico" type="image/x-icon">
+    <style type="text/css">
+		* {margin: 0; padding: 0;}
+		body {background: url(img/BG.jpg) #FFF no-repeat top center;}
+		.clear {clear: both;}
+		#webSite {width: 1000px; margin: 0 auto;}
+		#logo {
+			background-image: url(img/logo.png);
+			width: 307px;
+			height: 260px;
+			float:left;
+		}
+		#headerText {
+			background-image:url(img/headerText.png);
+			width: 405px;
+			height: 97px;
+			float: right;
+			margin-top: 100px;
+		}
+		#banner {
+			width: 100%;
+			height: 42px;
+			background-color: #044392;
+			box-shadow: 0 0 7px #000;
+			border-radius: 4px;
+			padding-top: 7px;
+		}
+		#banner p {
+			font-size: 29px;
+			color: #FFF;
+			font-family: "arial",sans-serif;
+			margin-left: 400px;
+		}
+		#webSite table {width: 1000px; margin-top: 25px;}
+		#webSite table tr td {width: 220px; height: 325px; vertical-align: top;}
+		#webSite table tr td a {width: 220px; float: left; margin-left: 15px;}
+		#webSite table tr td a img {width: 220px; height: 300px; border-radius: 4px; box-shadow: 0 0 10px 0.5px #000;}
+		#webSite table tr td p {
+			text-transform:capitalize;	
+			font-size: 14px;
+			font-family: "arial", sans-serif;
+		}
+	</style>
+    <!-- javascripts -->
+	<script type="text/javascript" src="js/jquery-1.9.0.min.js"></script>
+	<script type="text/javascript" src="js/jquery.mousewheel-3.0.6.pack.js"></script>
+	<script type="text/javascript" src="source/jquery.fancybox.js?v=2.1.4"></script>
+	<script type="text/javascript" src="source/helpers/jquery.fancybox-thumbs.js?v=1.0.7"></script>
+
+	<script type="text/javascript">
+		$(document).ready(function() {
+			$('.fancybox').fancybox();
+			$('.fancybox-thumbs').fancybox({prevEffect : 'fade', nextEffect : 'fade', closeBtn  : true, arrows    : true, nextClick : true, helpers : {thumbs : {width  : 50,height : 50}}});			
+		});
+	</script>
+	<style type="text/css">.fancybox-custom .fancybox-skin {box-shadow: 0 0 50px #222;}</style>
+</head>
+<body>
+<div id="webSite">
+	<div id="logo"></div>
+    <div id="headerText"></div>
+    <div class="clear"></div>
+    <div id="banner"><p>BELGELER</p></div>
+	<table>
+    	<tr>
+        	<td>
+    <a class="fancybox-thumbs" data-fancybox-group="thumb" href="Images/01.jpg"><img src="Images/01.jpg" width="100" height="100" alt="" /></a>
+    <div class="clear"></div>
+			</td>
+    		<td>
+    <a class="fancybox-thumbs" data-fancybox-group="thumb" href="Images/02.jpg"><img src="Images/02.jpg" width="100" height="100" alt="" /></a>
+    <div class="clear"></div>
+    		</td>
+    		<td>
+    <a class="fancybox-thumbs" data-fancybox-group="thumb" href="Images/03.jpg"><img src="Images/03.jpg" width="100" height="100" alt="" /></a>
+    <div class="clear"></div>
+    		</td>
+    		<td>
+    <a class="fancybox-thumbs" data-fancybox-group="thumb" href="Images/04.jpg"><img src="Images/04.jpg" width="100" height="100" alt="" /></a>
+    <div class="clear"></div>
+    		</td>
+    	</tr>
+        <tr>
+            <td>
+    <a class="fancybox-thumbs" data-fancybox-group="thumb" href="Images/05.jpg"><img src="Images/05.jpg" width="100" height="100" alt="" /></a>
+    <div class="clear"></div>
+    		</td>
+            <td>
+    <a class="fancybox-thumbs" data-fancybox-group="thumb" href="Images/06.jpg"><img src="Images/06.jpg" width="100" height="100" alt="" /></a>
+    <div class="clear"></div>
+    		</td>
+            <td>
+    <a class="fancybox-thumbs" data-fancybox-group="thumb" href="Images/07.jpg"><img src="Images/07.jpg" width="100" height="100" alt="" /></a>
+    <div class="clear"></div>
+    		</td>
+        </tr>
+    <table>
+</div>
+</body>
+</html>

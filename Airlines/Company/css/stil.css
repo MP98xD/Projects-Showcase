@@ -1,0 +1,339 @@
+@charset "utf-8";
+/* CSS Document */
+
+* {	font-family: "Roboto", Arial, Helvetica, sans-serif;}
+.clear {clear: both;}
+body {
+	background-image: url(../img/bg.jpg);
+	background-position: 0 137px;
+	margin: 0;
+	background-size: cover;
+    background-repeat-y: no-repeat;
+}
+#sayfa {
+	width: 1280px;
+	margin: 0 auto;
+	overflow-x: hidden;
+}
+#body {
+	padding-top: 30px;
+}
+.takvim {
+	padding: 0;
+	border: none;
+	width: 32px;
+	height: 30px;
+	background-color: transparent;
+	background-image: url(../img/takvim.png);
+}
+.takvim:hover {
+	background-image: url(../img/takvim-hover.png);
+}
+
+/* header */
+#head {
+	width: 100%;
+	height: 157px;
+}
+#logo {
+	background-image: url(../img/logo.png);
+	background-repeat: no-repeat;
+	width: 331px;
+	height: 116px;
+	margin-left: 39px;
+	background-position: 0 31px;
+	float: left;
+}
+#Menu {
+	background-image: url(../img/nav-bg.png);
+	background-repeat: no-repeat;
+	width: 910px;
+	height: 100px;
+	float: left;
+	margin-top: 37px;
+}
+#Menu ul {
+	list-style-type: none;
+	padding: 0;
+	padding-left: 51px;
+	margin: 0;
+}
+#Menu ul li {
+	float: left;
+}
+#Menu ul li a {
+	font-size: 18px;
+	color: #FFF;
+	text-decoration: none;
+	float: left;
+	height: 48px;
+	padding: 52px 25px 0 25px;
+	font-weight: bold;
+}
+#Menu ul li a.aktif {
+	background-image: url(../img/nav-hover.jpg);
+	background-repeat: repeat-x;
+	color: rgb(255, 152, 65);
+}
+#Menu ul li a:hover {
+	background-image: url(../img/nav-hover.jpg);
+	background-repeat: repeat-x;
+}
+#twitter {
+	background-image: url(../img/twet.png);
+	width: 52px;
+	height: 52px;
+	float: left;
+	margin-left: 30px;
+	opacity: 0.9;
+	margin-top: 10px;
+}
+#twitter:hover {
+	opacity: 1;
+}
+#facebook {
+	background-image: url(../img/face.png);
+	width: 45px;
+	height: 47px;
+	float: left;
+	opacity: 0.9;
+	margin-top: 45px;
+	margin-left: 35px;
+}
+#facebook:hover {
+	opacity: 1;
+}
+
+/* Anasayfa */
+#slider {
+	width: 650px;
+	height: 380px;
+	float: left;
+	margin-left: 90px;
+}
+#yanpanel {
+	float: left;
+	margin-left: 5px;
+}
+#yanpanelbasi {
+	background-image: url(../img/yan-basi.png);
+	background-repeat: no-repeat;
+	margin-left: 7px;
+	width: 512px;
+	height: 62px;
+}
+.yanButton {
+	float: left;
+	padding: 10px 0;
+	color: #FFF;
+	text-decoration: none;
+	font-size: 17px;
+	background-color: rgb(58, 155, 208);
+	margin: 0 10px;
+	width: 220px;
+	text-align: center;
+}
+.yanButton:hover {
+	background-color: rgb(25, 124, 180);
+}
+.yanButton.aktif {
+	background-color: rgb(0, 97, 154);
+}
+#yanpanelicerik {
+	background-image: url(../img/yan-bg.png);
+	background-repeat: no-repeat;
+	height: 286px;
+	padding: 15px 25px;
+}
+#tur {
+	margin-bottom: 30px;
+}
+#tur label {
+	margin: 0 0 0 70px;
+}
+#kalkisyeri select, #gidistarihi input {
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+}
+#kalkisyeri {
+	margin-bottom: 15px;
+}
+#kalkisyeri select {
+	margin-left: 15px;
+}
+#gidistarihi {
+	margin-bottom: 15px;
+}
+#gidistarihi input {
+	margin-left: 9px;
+}
+#ucusara {
+	margin: 25px 0 0 120px;
+	background-color: #B90004;
+	border: none;
+	color: #FFF;
+	font-size: 18px;
+	padding: 10px 15px;
+}
+#ucusara:hover {
+	background-color: #F00;
+	color: #FFF9F9;
+}
+#ucusara:active {
+	background-color: #F0F;
+}
+
+/* Kurumsal */
+.dropshadow {
+	-moz-box-shadow:0px 0px 15px 3px rgba(0,0,0,0.75);
+	-webkit-box-shadow:0px 0px 15px 3px rgba(0,0,0,0.75);
+	box-shadow:0px 0px 15px 3px rgba(0,0,0,0.75);
+	-ms-filter:"progid:DXImageTransform.Microsoft.dropshadow(OffX = 0,OffY = 0,Color = #bf000000,Positive = true)";
+	filter:progid:DXImageTransform.Microsoft.dropshadow(OffX = 0,OffY = 0,Color = #bf000000,Positive = true);
+}
+#ucakresmi {
+	text-align: center;
+}
+#kurumsal-icerik {
+	width: 1060px;
+	margin: 0 auto;
+	margin-top: 40px;
+	font-size: 15px;
+	font-weight: bold;
+}
+
+/* Tarifeler */
+#tarifeler_icerik {
+	width: 900px;
+	margin: 0 auto;
+}
+#tarifeler_harita {
+	background-image: url(../img/tarifeler-harita.jpg);
+	width: 695px;
+	height: 514px;
+	float: left;
+}
+#tarifeler_gecis {
+	float: left;
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+}
+#tarifeler_gecis li a {
+	float: left;
+	margin: 0 0 17.3px 0;
+	width: 150px;
+	height: 26px;
+	background-image: url(../img/tarifeler-b.png);
+	color: #fff;
+	text-decoration: none;
+	padding: 5px 0 0 48px;
+	font-weight: bold;
+}
+#tarifeler_gecis li a.aktif, #tarifeler_gecis li a:hover {
+	background-image: url(../img/tarifeler-b-hover.png);
+}
+
+/* Hizmetler */
+#hizmetler {
+	margin-bottom: 87px;
+}
+#chekin {float: left; margin-left: 105px;}
+#hizmetler-icerik {
+	width: 762px;
+	float: left;
+	margin-left: 40px;
+	padding-top: 30px;
+	font-size: 15px;
+	font-weight: bold;
+}
+
+/* Bize ulasin */
+#bizeolasin {
+	margin-bottom: 201px;
+}
+#iletisim {
+	width: 660px;
+	text-align: center;
+	float: left;
+	border-right: 3px solid #000;
+}
+#iletisim h2 {
+	font-weight: normal;
+	font-size: 27px;
+	font-weight: bold;
+}
+#cagrimerkezi {
+	width: 600px;
+	text-align: center;
+	float: left;
+}
+#cagrimerkezi h2 {
+	font-weight: normal;
+	font-size: 27px;
+	font-weight: bold;
+}
+
+/* footer */
+#footer {
+	position: absolute;
+	bottom: 0;
+}
+#footer_menu {
+	background-image: url(../img/footer-bg.png);
+	background-repeat: no-repeat;
+	width: 1018px;
+	height: 57px;
+	float: left;
+}
+#footer_menu ul {
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+}
+#footer_menu ul li {
+	float: left;
+	height: 37px;
+	border-right: 2px solid #FFF;
+	margin-top: 10px;
+	padding: 0 40px;
+}
+#footer_menu ul li:last-child {
+	border: none;
+}
+#footer_menu ul li a {
+	font-size: 18px;
+	color: #FFF;
+	text-decoration: none;
+	float: left;
+	padding-top: 8px;
+	font-weight: bold;	
+}
+#footer_menu ul li a:hover {
+	border-bottom: 2px dotted #FFF;
+}
+#footer_twitter {
+	background-image: url(../img/twet.png);
+	width: 52px;
+	height: 52px;
+	float: left;
+	margin-left: 80px;
+	margin-top: 4px;
+	opacity: 0.9;
+}
+#footer_twitter:hover {
+	opacity: 1;
+}
+#footer_facebook {
+	background-image: url(../img/face.png);
+	width: 45px;
+	height: 47px;
+	float: left;
+	opacity: 0.9;
+	margin-left: 35px;
+	margin-top: 4px;
+}
+#footer_facebook:hover {
+	opacity: 1;
+}

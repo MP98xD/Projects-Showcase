@@ -1,0 +1,204 @@
+/* ===== global styles ===== */
+body  {
+    font-family: "Arimo", sans-serif;
+	background-image: url(../images/backgroundFlags.png), url(../images/generalRepeat.png);
+	background-repeat: no-repeat, repeat-x;
+	background-position: center 100px, 0 110x;
+    background-color: #FFF;
+    margin: 0;
+    padding: 0;
+}
+table {margin: 0; padding: 0; border-spacing: 0; text-align: left;}
+td, tr {margin: 0; padding: 0; vertical-align: top;}
+a {text-decoration: none;}
+.white {
+	background-image: url(../images/backgroundFlags.png), url(../images/whiteBG.png);
+	background-repeat: no-repeat, repeat-x;
+	background-position: center 100px, 0 110px;
+}
+.blue {
+	background-image: url(../images/backgroundFlags.png), url(../images/generalRepeat.png);
+	background-repeat: no-repeat, repeat-x;
+	background-position: center 100px, 0 110px;
+}
+#menu {
+	background-image: url(../images/leftOverflow.png);
+	background-position: 0 92px;
+	background-repeat: no-repeat;
+}
+/* ===== header ===== */
+#header #text {float: right; margin-top: 20px;}
+#headerText {
+	font-family: Arimo, sans-serif;
+	font-size: 18px;
+	color: #C57373;
+	font-weight: bold;
+	margin-top: -10px;
+	display: inline;
+}
+#header #text #facebookLink {margin-left: 28px;	margin-right: 12px; }
+/* ===== outer table ===== */
+#outerTable {
+    margin: 0 auto;
+	margin-top: 20px;
+    width: 960px;
+    background: url(../images/background.png) 0 154px;
+	background-repeat: no-repeat;
+}
+
+#menu div {margin-top: 20px;}
+/* ===== kurumsal outer table ===== */
+#kurumsalOuterTable {
+    margin: 0 auto;
+	margin-top: -17px;
+    width: 960px;
+	height: 1600px;
+    background-image: url(../images/kurumsalBG.png);
+	background-repeat: no-repeat;
+}
+/* ===== kurumsal contents ===== */
+#kurumsalIMG {margin-top: 49px; margin-left: 30px;}
+#kurumsalLogo {margin-top: 32px; margin-left: 400px;}
+/* ===== belgeler outer table ===== */
+#belgelerOuterTable {
+    margin: 0 auto;
+	margin-top: -17px;
+    width: 960px;
+	height: 1600px;
+    background-image: url(../images/belgelerBG.png);
+	background-repeat: no-repeat;
+}
+/* ===== belgeler contents ===== */
+#belgelerIMG {margin-top: 49px; margin-left: 33px;}
+#belgelerLogo {margin-top: 32px; margin-left: 400px;}
+/* ===== menu ===== */
+#menu a img {border: none;}
+#menu a {
+	font-family: Arimo, sans-serif;
+	font-weight: bold;
+	margin-top: 0;
+	text-shadow: 1px 1px 4px #273134;
+	color: #FFF;
+	width: 160px;
+	float: left;
+	height: 96px;
+}
+#menu ul {margin: 0; padding: 0; margin-top: -7px;}
+#menu li {list-style: none; float: left;}
+#menu {padding-left: 0;}
+#menu li a p {margin-top: 65px; font-size: 14px; font-family: "arimo", sans-serif;}
+#anaSayfa p {margin-left: 44px;}
+#kurumsal p {margin-left: 41px;}
+#belgelerimiz p {margin-left: 29px;}
+#hizmetlerimiz p {margin-left: 28px;}
+#nasilYapilir p {margin-left: 26px;}
+#iletisim p {margin-left: 51px;}
+/* ===== menu replace ===== */
+#anaSayfa {background-image: url(../images/anaSayfa_hover.png);}
+#kurumsal {background-image: url(../images/kurumsal.png);}
+#belgelerimiz {background-image: url(../images/belgeler.png);}
+#hizmetlerimiz {background-image: url(../images/hizmetler.png);}
+#nasilYapilir {background-image: url(../images/nasilYapilir.png);}
+#iletisim {background-image: url(../images/iletisim.png);}
+/* ===== hover ===== */
+#anaSayfa:hover {background-image: url(../images/anaSayfa_hover.png);}
+#kurumsal:hover {background-image: url(../images/kurumsal_hover.png);}
+#belgelerimiz:hover {background-image: url(../images/belgeler_hover.png);}
+#hizmetlerimiz:hover {background-image: url(../images/hizmetler_hover.png);}
+#nasilYapilir:hover {background-image: url(../images/nasilYapilir_hover.png);}
+#iletisim:hover {background-image: url(../images/iletisim_hover.png);}
+/* ===== contents ===== */
+.homeParaTitle {
+	font-family: arimo, sans-serif;
+	font-size: 14px;
+	font-weight: bold;
+	color: #FFF;
+	text-shadow: 2px 2px 2px #273134;
+	margin-bottom: 0;
+}
+.homeParaContent {
+	margin-top: 6px;
+	font-family: arimo, sans-serif;
+	font-size: 14px;
+	color: #FFF;
+	text-shadow: 2px 2px 2px #273134;
+}
+#firstParagraph {
+	background: url(../images/downPara1.gif) no-repeat;
+	margin-left: 17px;
+	width: 195px;
+	height: 128px;
+	padding-left: 93px;
+	box-shadow: 1px 1px 7px #000;
+	float: left;
+}
+#secondParagraph {
+	background: url(../images/downPara2.gif) no-repeat;
+	width: 195px;
+	height: 128px;
+	margin-left: 32px;
+	padding-left: 93px;
+	box-shadow: 1px 1px 7px #000;
+	float: left;
+}
+#weather {
+	margin-left: 25px;
+	box-shadow: 1px 1px 7px #000;
+	width: 120px;
+	height: 112px;
+	background-color: #fff;
+	float: left;
+	padding: 0 87px;
+	padding-top: 17px;
+}
+
+#weather img {margin-left: 10px;}
+#footer hr {margin-top: 62px;}
+#links {padding-left: 30px; color: #BCD1D8; font-size: 12px;}
+#footer a {color: #BCD1D8;}
+#copy {color: #BCD1D8; font-size: 12px; margin-right: 30px; float: right;}
+/* ========== slider ========== */
+#parentSlider {margin-left: 33px; margin-top: 27px;}
+#slider ul, #slider li,
+#slider2 ul, #slider2 li{
+	margin:0;
+	padding:0;
+	list-style:none;
+}
+#slider2{margin-top:1em;}
+#slider li, #slider2 li{ 
+	/* define width and height of list item (slide)
+		entire slider area will adjust according to the parameters provided here*/ 
+	width:896px;
+	height:320px;
+	overflow:hidden; 
+}
+/* numeric controls */	
+ol#controls{
+	margin:1em 0;
+	padding:0;
+	height:28px;
+	margin-left: 305px;
+	margin-top: 36px;
+}
+ol#controls li{
+	margin:0 0 0 0; 
+	padding:0;
+	float:left;
+	list-style:none;
+	height:28px;
+	line-height:28px;
+}
+ol#controls li a{
+	float:left;
+	height:28px;
+	line-height:28px;
+	color:#FFF;
+	font-weight: bold;
+	font-size: 18px;
+	padding:0 10px;
+}
+ol#controls li.current a{
+	background: url(../images/slideBackground.gif);
+	color:#fff;
+}

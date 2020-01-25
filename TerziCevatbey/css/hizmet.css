@@ -1,0 +1,100 @@
+/* ===== outer table ===== */
+#hizmetOuterTable {
+    margin: 0 auto;
+	margin-top: -19px;
+    width: 960px;
+	height: 1600px;
+    background-image: url(../images/hizmetBG.png);
+	background-repeat: no-repeat;
+}
+/* ===== menu ===== */
+#hizmetMenu {float: left; margin-top: 50px;}
+#hizmetMenu li {
+	list-style: none;
+	width: 288px;
+	height: 32px;
+	background-image: url(../images/hizmetMenuActive.png);
+}
+#hizmetMenu li.hizmetMenuNon {background-image: url(../images/hizmetMenuNonActive.png); width: 298px;}
+#hizmetMenu li.hizmetMenuNon a {cursor: default;}
+#hizmetMenu li a {
+	text-shadow: 2px 2px 3px #354250;
+	font-size: 12px;
+	font-weight: bold;
+	color: #FFF;
+	font-family: arimo,sans-serif;
+	float: left;
+	width: 288px;
+	height: 32px;
+}
+#hizmetMenu p {margin: 0; margin-top: 8px; margin-left: 40px;}
+/* ===== hizmetContents ====== */
+#hizmetContents {
+	text-shadow: 2px 2px 3px #533B3B;
+	width: 612px;
+	margin-left: 320px;
+	color: #FFF;
+}
+#hizmetContents h2 {
+	vertical-align: 15px;
+	margin-left: 12px;
+	display: inline;
+	font-size: 24px;
+	font-weight: bold;
+	font-family: arimo, sans-serif;
+	margin-bottom: 38px;
+}
+#hizmetContents p {font-family: arimo, sans-serif; font-weight: bold; font-size: 14px;}
+#share {margin-top: 73px; margin-left: 150px;}
+/* ========== slider ========== */
+#hizmetParentSlider {float: right; margin-right: 30px; margin-top: 50px;}
+#hizmetSliderNumBar {margin-top: -48px;}
+#hizmetSlider ul, #hizmetSlider li,
+#hizmetSlider2 ul, #hizmetSlider2 li{
+	margin:0;
+	padding:0;
+	list-style:none;
+}
+#hizmetSlider2{margin-top:1em;}
+#hizmetSlider li, #hizmetSlider2 li{ 
+	/* define width and height of list item (slide)
+		entire slider area will adjust according to the parameters provided here*/ 
+	width:608px;
+	height:320px;
+	overflow:hidden; 
+}
+/* numeric controls */	
+#hizmetParentSlider ol#controls{
+	margin:1em 0;
+	padding:0;
+	height:32px;
+	width: 608px;
+	margin-top: 0;
+	position: relative;
+	z-index: 1;
+}
+#hizmetParentSlider ol#controls li{
+	padding:0;
+	float:left;
+	list-style:none;
+	height:32px;
+	line-height:32px;
+}
+#hizmetParentSlider ol#controls li a{
+	float:left;
+	height:32px;
+	line-height:32px;
+	color:#FFF;
+	font-weight: bold;
+	font-size: 18px;
+	padding:0 10px;
+}
+#hizmetParentSlider ol#controls li.current a{
+	background: url(../images/slideBackground.gif);
+	color:#fff;
+}
+#hizmetParentSlider #controls {
+	width: 608px;
+	background-image: url(../images/hizmetSliderNumBar.png);
+}
+#hizmetParentSlider #controls1 {margin-left: 240px;}

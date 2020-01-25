@@ -1,0 +1,4 @@
+[autorun]
+shellexecute=index.html
+icon=setup.ico
+label="Mert Veterinerlik"

@@ -1,0 +1,259 @@
+@charset "utf-8";
+/*
+	Programmed By: Mosab
+	musabbasil@ortakfikir.com
+	Web Programmer 
+*/
+/* ===== standard ===== */
+body {
+	background-image: url(../images/websiteBGRepeat.jpg);
+	background-position: 0 128px;
+	background-repeat: repeat-x;
+	font-family: 'Arimo', sans-serif;
+}
+#pageContents {
+	width: 960px;
+	margin: 0 auto;
+}
+
+#header {
+	margin: 15px 0 2px 0;
+	height: 111px;
+}
+
+#headerMenu {float: right;}
+
+#headerMenu ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	float: left;
+}
+
+#headerMenu ul li {float: left;}
+
+#headerMenu ul li a {
+	float: left;
+	width: 128px;
+	height: 96px;
+	text-decoration: none;
+	color: #FFF;
+	font-family: 'Arimo', sans-serif;
+	font-size: 14px;
+}
+
+.menuNormal {
+	background-image: url(../images/headerMenu.png);
+	height: 96px;
+}
+
+.menuHover {
+	background-image: url(../images/headerMenuHover.png);
+	height: 111px;
+}
+
+/* -- IMG margin -- */
+
+#hakkimizda a img {margin: 19px 0 0 50px;}
+#urunlerimiz a img {margin: 20px 0 0 50px;}
+#hizmetlerimiz a img {margin: 17px 0 0 48px;}
+#fotogaleri a img {margin: 21px 0 0 48px;}
+#iletisim a img {margin: 25px 0 0 48px;}
+
+/* -- P margin -- */
+
+#hakkimizda a p {margin: 13px 0 0 21px;}
+#urunlerimiz a p {margin: 13px 0 0 16px;}
+#hizmetlerimiz a p {margin: 13px 0 0 10px;}
+#fotogaleri a p {margin: 14px 0 0 16px;}
+#iletisim a p {margin: 13px 0 0 33px;}
+
+/* ===== banner ===== */
+
+.banner {
+	width: 960px;
+	height: 224px;
+	font-family: 'Arimo', sans-serif;
+}
+
+#bannerK {background-image:url(../images/kurumsalBanner.png);}
+#bannerU {background-image:url(../images/urunlerimizBanner.png);}
+#bannerH {background-image:url(../images/hizmetlerimizBanner.png);}
+#bannerF {background-image:url(../images/fotogaleriBanner.png);}
+#bannerIL {background-image:url(../images/iletisimBanner.png);}
+
+/* ===== hakkimizda ===== */
+
+.hakkimizdaContentsText {
+	color: #004179;
+	font-size: 24px;
+	font-family: 'Arimo', sans-serif;
+	padding-left: 32px;
+	padding-top: 16px;
+	float: left;
+}
+
+.hakkimizdaContentsText p {font-weight: bold;}
+
+.hakkimizdaContentsText div {font-size: 14px;}
+
+/* ===== urunlerimiz ===== */
+
+#urunlerimizContents #gallery {
+	margin: 14px 0 0 0;
+	width: 960px;
+	height: 1110px;
+}
+
+#urunlerimizContents #gallery li {
+	list-style: none;
+	float: left;
+	font-size: 27px;
+}
+
+
+#urunlerimizContents #gallery a {
+	color: #004179;
+	font-family: 'Arimo', sans-serif;
+	font-size: 14px;
+	text-decoration: none;
+}
+
+#urunlerimizContents #gallery a img {
+	border: none;
+	margin-bottom: 3px;
+	margin-right: 32px;
+}
+
+#urunlerimizContents #gallery a div {
+	margin: 3px 0 0px 0;
+	text-align: left;
+	width: 216px;
+}
+
+#urunlerimizContents td {
+	height: 225px;
+	vertical-align: top;
+}
+
+#urunlerimizContents p {
+	margin: 0;
+}
+
+/* ===== hizmetlerimiz ===== */
+
+#hizmetlerimizBannerText {
+	font-family: "arimo", sans-serif;
+	font-size: 24px;
+	font-weight: bold;
+	color: #004179;
+	margin-top: 20px;
+}
+
+/* ===== fotogaleri ===== */
+
+#fotogaleriContents #gallery {
+	margin: 14px 0 0 0;
+	width: 960px;
+}
+
+#fotogaleriContents #gallery li {
+	list-style: none;
+	float: left;
+}
+
+#fotogaleriContents #gallery a img {
+	border: none;
+	margin-bottom: 20px;
+	margin-right: 32px;
+}
+
+/* ===== iletisim ===== */
+
+#contactUs {
+	background-color: #FFFFFF;
+	width: 960px;
+	height: 64px;
+	color: #004179;
+	font-family: 'Arimo', sans-serif;
+	font-size: 15px;
+	font-weight: bold;
+}
+
+#contactUs div {padding-top: 15px;}
+
+#contactUs font {float: left;}
+
+#contactUs img {float: left;}
+
+/* -- inputs -- */
+
+#inputs {
+	font-family: "arimo", sans-serif;
+	font-size: 13px;
+	font-weight: bold;
+	color: #FFFFFF;
+	margin-top: 32px;
+}
+
+#inputs .inputsBG {
+	background-color: #004179;
+	width: 128px;
+	height: 32px;
+	float: left;
+	margin-bottom: 16px;
+}
+
+#inputs .inputsBG p {margin: 8px;}
+
+#inputs #leftSide input {
+	float: left;
+	width: 320px;
+	height: 27px;
+	font-family: "arimo", sans-serif;
+	font-size: 15px;
+}
+
+#inputs #leftSide {width: 460px; float: left;}
+
+#inputs #rightSide {width: 492px; float: left; margin-left: 8px;}
+
+#inputs #rightSide #mesajDiv {
+	background-color: #004179;
+	width: 64px;
+	height: 128px;
+	float: left;
+}
+
+#inputs #rightSide textarea {
+	resize: none;
+	width: 416px;
+	height: 122px;
+}
+
+#inputs #mesaj {margin: 11px 0 0 11px;}
+
+#inputs #requiredText {
+	font-family: "arimo", sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	color: #004179;
+	margin-right: 219px;
+}
+
+#inputs #submit {
+	background-color: #004179; 
+	width: 96px;
+	height: 32px;
+	border: none;
+	color: #FFFFFF;
+	font-family: "arimo", sans-serif;
+	font-size: 15px;
+	font-weight: bold;
+}
+
+
+
+/* ===== footer ===== */
+
+.footer {float: left;}

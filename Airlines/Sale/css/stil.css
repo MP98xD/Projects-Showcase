@@ -1,0 +1,428 @@
+@charset "utf-8";
+/* CSS Document */
+
+* {	font-family: "Roboto", Arial, Helvetica, sans-serif;}
+.clear {clear: both;}
+body {
+	background-image: url(../img/bg.jpg);
+	background-position: 0 137px;
+	margin: 0;
+	background-size: cover;
+    background-repeat-y: no-repeat;
+}
+#sayfa {
+	width: 1280px;
+	margin: 0 auto;
+	overflow-x: hidden;
+}
+#body {
+	padding-top: 30px;
+}
+
+/* header */
+#head {
+	width: 100%;
+	height: 157px;
+}
+#logo {
+	background-image: url(../img/logo.png);
+	background-repeat: no-repeat;
+	width: 331px;
+	height: 116px;
+	margin-left: 39px;
+	background-position: 0 31px;
+	float: left;
+}
+#Menu {
+	background-image: url(../img/nav-bg.png);
+	background-repeat: no-repeat;
+	width: 910px;
+	height: 100px;
+	float: left;
+	margin-top: 37px;
+}
+#Menu ul {
+	list-style-type: none;
+	padding: 0;
+	padding-left: 51px;
+	margin: 0;
+}
+#Menu ul li {
+	float: left;
+}
+#Menu ul li a {
+	font-size: 18px;
+	color: #FFF;
+	text-decoration: none;
+	float: left;
+	height: 48px;
+	padding: 52px 25px 0 25px;
+	font-weight: bold;
+}
+#Menu ul li a.aktif {
+	background-image: url(../img/nav-hover.jpg);
+	background-repeat: repeat-x;
+	color: rgb(255, 152, 65);
+}
+#Menu ul li a:hover {
+	background-image: url(../img/nav-hover.jpg);
+	background-repeat: repeat-x;
+}
+#twitter {
+	background-image: url(../img/twet.png);
+	width: 52px;
+	height: 52px;
+	float: left;
+	margin-left: 175px;
+	opacity: 0.9;
+	margin-top: 10px;
+}
+#twitter:hover {
+	opacity: 1;
+}
+#facebook {
+	background-image: url(../img/face.png);
+	width: 45px;
+	height: 47px;
+	float: left;
+	opacity: 0.9;
+	margin-top: 45px;
+	margin-left: 35px;
+}
+#facebook:hover {
+	opacity: 1;
+}
+
+/* Anasayfa */
+#slider {
+	width: 650px;
+	height: 380px;
+	float: left;
+	margin-left: 90px;
+}
+#yanpanel {
+	float: left;
+	margin-left: 5px;
+}
+#yanpanelbasi {
+	background-image: url(../img/yan-basi.png);
+	background-repeat: no-repeat;
+	margin-left: 7px;
+	width: 512px;
+	height: 62px;
+}
+.yanButton {
+	float: left;
+	padding: 10px 0;
+	color: #FFF;
+	text-decoration: none;
+	font-size: 17px;
+	background-color: rgb(58, 155, 208);
+	margin: 0 10px;
+	width: 220px;
+	text-align: center;
+}
+.yanButton:hover {
+	background-color: rgb(25, 124, 180);
+}
+.yanButton.aktif {
+	background-color: rgb(0, 97, 154);
+}
+#yanpanelicerik {
+	background-image: url(../img/yan-bg.png);
+	background-repeat: no-repeat;
+	height: 286px;
+	padding: 15px 25px;
+}
+#tur {
+	margin-bottom: 30px;
+}
+#tur label {
+	margin: 0 0 0 70px;
+}
+#kalkisyeri select, #gidistarihi input {
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+}
+#kalkisyeri {
+	margin-bottom: 15px;
+}
+#kalkisyeri select {
+	margin-left: 15px;
+}
+#gidistarihi {
+	margin-bottom: 15px;
+}
+#gidistarihi input {
+	margin-left: 9px;
+}
+#ucusara {
+	margin: 25px 0 0 120px;
+	background-color: #B90004;
+	border: none;
+	color: #FFF;
+	font-size: 18px;
+	padding: 10px 15px;
+}
+#ucusara:hover {
+	background-color: #F00;
+	color: #FFF9F9;
+}
+#ucusara:active {
+	background-color: #F0F;
+}
+
+/* standart */
+#icerik_basi {
+	width: 100%;
+	height: 51px;
+	background-image: url(../img/icerik-basi.jpg);
+	background-repeat: repeat-x;
+	position: relative;
+}
+#icerik_basi p {
+	color: #fff;
+	font-size: 18px;
+	padding: 18px 0;
+	text-align: center;
+	margin: 0;
+}
+#icerik {
+	width: 1000px;
+	background-image: url(../img/icerik-bg.jpg);
+	background-repeat: repeat-x;
+	height: 409px;
+	margin: 0 auto;
+	-moz-box-shadow:0px 0px 23px 1px rgba(97,143,179,0.75);
+	-webkit-box-shadow:0px 0px 23px 1px rgba(97,143,179,0.75);
+	box-shadow:0px 0px 23px 1px rgba(97,143,179,0.75);
+	-ms-filter:"progid:DXImageTransform.Microsoft.dropshadow(OffX = 0,OffY = 0,Color = #bf618fb3,Positive = true)";
+	filter:progid:DXImageTransform.Microsoft.dropshadow(OffX = 0,OffY = 0,Color = #bf618fb3,Positive = true);
+}
+
+/* biletsatis */
+#biletara {
+	width: 730px;
+	margin: 0 auto;
+}
+#biletara label {
+	text-align: center;
+	padding-top: 4px;
+	width: 262px;
+	height: 27px;
+	float: left;
+	color: rgb(0, 75, 130);
+	background-color: rgb(193, 212, 226);
+	font-size: 18px;
+	font-weight: bold;
+	-moz-border-radius: 6px;
+	margin: 10px 50px;
+	-webkit-border-radius: 6px;
+	border-radius: 6px;
+	-moz-box-shadow:2px 4px 5px 0px rgba(0,0,0,0.75);
+	-webkit-box-shadow:2px 4px 5px 0px rgba(0,0,0,0.75);
+	box-shadow:2px 4px 5px 0px rgba(0,0,0,0.75);
+	-ms-filter:"progid:DXImageTransform.Microsoft.dropshadow(OffX = 2,OffY = 4,Color = #bf000000,Positive = true)";
+	filter:progid:DXImageTransform.Microsoft.dropshadow(OffX = 2,OffY = 4,Color = #bf000000,Positive = true);
+}
+#yon {
+	margin: 0 75px;
+	text-align: center;
+	padding: 20px 0;
+	border-bottom: 3px dotted #FFF;
+}
+#yon label {
+	color: rgb(120, 0, 0);
+	margin: 0 50px;
+}
+#sehir, #tarih {
+	margin: 55px 0;
+	color: #FFF;
+	font-size: 22px;
+}
+#sehir #kalkis span {
+	margin: 0 75px 0 100px;
+}
+#sehir #varis span {
+	margin: 0 95px 0 150px;
+}
+#sehir select {
+	font-size: 18px;
+}
+#tarih .tarih {
+	font-size: 18px;
+	width: 148px;
+}
+#tarih #gidis span {
+	margin: 0 21px 0 100px;
+}
+#tarih #donus span {
+	margin: 0 21px 0 107px;
+}
+#sehir select, #tarih input, #ozel select {
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+}
+.takvim {
+	padding: 0;
+	border: none;
+	width: 32px;
+	height: 30px;
+	background-color: transparent;
+	background-image: url(../img/takvim.png);
+}
+.takvim:hover {
+	background-image: url(../img/takvim-hover.png);
+}
+#ozel {
+	text-align: center;
+}
+#ozel label {
+	margin: 0 30px;
+	font-size: 24px;
+}
+#ozel select {
+	width: 75px;
+	height: 35px;
+	font-size: 24px;
+	text-align: center;
+}
+#ucuslarilistele {
+	position: absolute;
+	margin-left: 850px;
+	margin-top: -55px;
+	border: none;
+	width: 122px;
+	height: 78px;
+	background-color: transparent;
+	background-image: url(../img/ucuslari-listele.png);
+}
+#ucuslarilistele:hover {
+	background-image: url(../img/ucuslari-listele-hover.png);
+}
+
+/* Islemlerim */
+#islemlerim {
+	float: left;
+	margin: 75px 0 0 50px;
+	width: 790px;
+	border-top: 3px dotted #fff;
+	font-size: 20px;
+	padding-left: 100px;
+}
+#islemlerim label {
+	display: block;
+	margin: 15px 0;
+}
+#islemlerim label input {
+	font-size: 18px;
+}
+#islemlerim #username span {
+	margin: 0 75px 0 0;
+}
+#islemlerim #password span {
+	margin: 0 144px 0 0;
+}
+#islemlerim input {
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+}
+#islemlerim #giris {
+	background-color: #FFF;
+	border: 1px solid #000;
+	font-size: 24px;
+	padding: 5px 35px;
+	position: absolute;
+	margin: -70px 0 0 500px;
+}
+#islemlerim #giris:hover {
+	background-color: #CCC;
+}
+#sifreunuttum h3 {
+	margin-top: 35px;
+	font-weight: bold;
+	font-size: 24px;
+}
+#sifreunuttum p {
+	font-size: 16px;
+	margin-top: 25px;
+	margin-bottom: 35px;
+}
+#sifreunuttum label span {
+	margin-right: 24px;
+}
+#sifreunuttum #sifremigonder {
+	background-color: #FFF;
+	border: 1px solid #000;
+	font-size: 17px;
+	padding: 5px 25px;
+	position: absolute;
+	margin: -47px 0 0 480px;
+}
+#sifreunuttum #sifremigonder:hover {
+	background-color: #CCC;
+}
+
+/* Uyelik */
+#uyelik {
+	float: left;
+	margin: 50px 0 0 50px;
+	width: 790px;
+	border-bottom: 3px dotted #fff;
+	font-size: 20px;
+	padding-left: 100px;
+	padding-bottom: 50px;
+}
+#uyelik p {
+	color: #fff;
+	font-size: 16px;
+	margin: 25px 0 0 135px;
+}
+#uyeol {
+	float: left;
+	text-decoration: none;
+	color: #000;
+	background-color: #FFF;
+	padding: 10px 75px;
+	font-size: 24px;
+	margin: 75px 0 0 380px;
+	border-radius: 7px;
+	-moz-border-radius: 7px;
+	-webkit-border-radius: 7px;
+}
+#uyeol:hover {
+	background-color: #999;
+	color: #fff;
+}
+
+/* footer */
+#footer {
+	margin-top: 60px;
+}
+#footer_twitter {
+	background-image: url(../img/twet.png);
+	width: 52px;
+	height: 52px;
+	float: left;
+	margin-left: 500px;
+	margin-top: 4px;
+	opacity: 0.9;
+}
+#footer_twitter:hover {
+	opacity: 1;
+}
+#footer_facebook {
+	background-image: url(../img/face.png);
+	width: 45px;
+	height: 47px;
+	float: left;
+	opacity: 0.9;
+	margin-left: 100px;
+	margin-top: 6px;
+}
+#footer_facebook:hover {
+	opacity: 1;
+}

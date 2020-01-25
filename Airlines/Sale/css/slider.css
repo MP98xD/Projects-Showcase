@@ -1,0 +1,19 @@
+@charset "utf-8";
+#slider {width: 650px; height: 380px;}
+#image_slider {width: 650px; height: 380px;}
+#image_slider > div {z-index: 8; position: absolute; opacity: 0;}
+#image_slider > .next {z-index: 9; opacity: 1;}
+#image_slider > .aktif {z-index: 10; opacity: 1;}
+#dot_slider {
+	position: absolute;
+	margin-top: -45px;
+	z-index: 11;
+	margin-left: 240px;
+}
+#dot_slider a {
+	width: 41px;
+	height: 41px;
+	background-image: url(../img/slider-dot.png);
+	float: left;
+}
+#dot_slider a:hover, #dot_slider a.aktif {background-image: url(../img/slider-dot-hover.png);}
