@@ -1,0 +1,203 @@
+@charset "utf-8";
+/*
+	Programmed By: Mosab
+	musabbasil@ortakfikir.com
+	Web Programmer
+*/
+/* ===== standard ===== */
+* {margin: 0; padding: 0; font-family: 'arial','helvetica', sans-serif;}
+body {font-family: 'arial', sans-serif; background: #2A2F3D;}
+a {text-decoration: none; color: #000;}
+a img {border: 0;}
+#websiteContents {background-color: #FFF; padding-bottom:10px;}
+#header {width: 1150px; margin: 0 auto; height: 203px; background-image: url(../images/standard/BG_header.png);}
+#suleyman_photo {
+	width: 199px;
+	height: 187px;
+	background-image: url(../images/standard/suleyman_photo.png);
+	position: absolute;
+	margin: 16px 0 0 21px;
+}
+#suleyman_logo  {
+	width: 397px;
+	height: 79px;
+	background-image: url(../images/standard/suleyman_logo.png);
+	float: left;
+	margin: 60px 0 0 230px;
+}
+#adapazari_logo {
+	width: 107px;
+	height: 151px;
+	background-image: url(../images/standard/adapazariBel_logo.png);
+	float: left;
+	margin-left: 60px;
+	position: relative;
+}
+#facebook_twitter {
+	width: 329px;
+	height: 52px;
+	background-image: url(../images/standard/facebookTwitter.png);
+	float: left;
+	margin: 12px 0 0 27px;
+}
+#searchBox {
+	width: 257px;
+	height: 30px;
+	background-image: url(../images/standard/searchBox.png);
+	box-shadow: -1px -1px 5px #000;
+	float: left;
+	margin: 24px 0 0 90px;
+}
+#headerMenu {
+	width: 885px;
+	height: 24px;
+	float: left;
+	margin: 28px 0 0 255px
+}
+#headerMenu ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	float: left;
+}
+#headerMenu ul li {float: left; height: 30px;}
+#headerMenu ul li a {
+	color: #292F3D;
+	margin: 0 13px 0 13px;
+	float: left;
+	font-size: 12px;
+	font-weight: bold;
+}
+#headerMenu ul li a:hover {border-bottom: solid #292F3D 10px;}
+#headerLine {
+	width: 100%;
+	height: 4px;
+	background-color: #647193;
+	float: left;
+	margin-top: -38px;
+	margin-bottom: 34px;
+}
+#headerLine_down {width: 100%; height: 9px; background-color: #2B303E;}
+#contents {margin: 15px 0 0 18px;}
+/* ===== Classes ===== */
+.pageContents {background-color: #FFF; width: 1150px; margin: 0 auto;}
+div.clear {clear:both;}
+.click {border-bottom: solid #292F3D 10px;}
+/* ===== Biyografi ===== */
+#contentBanner {
+	width: 1122px;
+	height: 42px;
+	background-color: #592547;
+	box-shadow: -1px -1px 5px #000;
+	font-size: 20px;
+	font-weight: bold;
+	color: #FFF;
+}
+#contentBanner p {margin: 10px; float: left;}
+#contents ul {float: left;}
+#contents ul li {list-style: none; margin: 7px 0;}
+#contents ul li div {
+	width: 247px;
+	height: 42px;
+	background-color: #939597;
+	box-shadow: 0px 0px 3px #000;
+	font-size: 20px;
+	color: #FFF;
+	font-weight: bold
+}
+#contents ul li div p {float: left; margin: 10px;}
+#selectedContentsBG {
+	width: 857px;
+	background-color: #FFF;
+	box-shadow: 0 0 5px #000;
+	float: right;
+	margin: -35px 19px 0 0;
+}
+#contentsHeader {font-size: 20px; font-weight: bold; color: #000;}
+#selBiyografiContents {margin: 20px 10px 10px 10px;}
+#selBiyografiContents div {
+	width: 277px;
+	font-size: 14px;
+	color: #000;
+	margin: 15px 10px 0 0;
+	float: left;
+}
+#selectedContents img {float: right; margin: -25px 5px 0 0;}
+/* ===== Foto albumu ===== */
+#selFotoalbumuContents {margin: 40px 10px 25px 30px;}
+#selFotoalbumuContents table {width: 835px;}
+#selFotoalbumuContents table tr td {width: 235px; margin-bottom: 10px;}
+#selFotoalbumuContents table tr td a {
+	width: 235px;
+	height: 190px;
+	float: left;
+	margin-bottom: 15px;
+}
+#selFotoalbumuContents table tr td a p {
+	width: 235px;
+	font-size: 20px;
+	font-weight: bold;
+	margin: 10px 0 0 0;
+}
+/* ===== Ziyaretci Defteri ===== */
+#selZiyaretciContents {margin: 40px 10px 25px 30px;}
+/* ===== Online Randevu ===== */
+#selOnlineRandevuContents {margin: 40px 10px 25px 30px;}
+/* ===== Projeler ===== */
+#projelerCountainer {
+	width: 1060px;
+	margin: 0 0 0 0;
+}
+#projelerCountainer table {width: 1060px;margin: 20px 0 0 25px;}
+#projelerCountainer table tr td {width: 264px;}
+#projelerCountainer table tr td a {
+	width: 252px;
+	height: 298px;
+	float: left;
+	margin-bottom: 20px;
+}
+#projelerCountainer table tr td a img {
+	margin: 9px;
+}
+#projelerCountainer table tr td a p {
+	width: 235px;
+	font-size: 20px;
+	font-weight: bold;
+	margin: 7px 0 0 10px;
+}
+#projelerCountainer table tr td a .projelerBox {
+	box-shadow: 0 0 5px #000;
+	width: 252px;
+	height: 310px;
+}
+#projelerCountainer table tr td a .projelerBox div {
+	width: 236px;
+	font-size: 12px;
+	margin: 0 0 0 10px;
+}
+/* ===== Proje Detay ===== */
+#projeDetayMenu {width: 220px;}
+#projeDetayMenu li a p {font-size: 13px; font-weight: bold;}
+#selTeknikProjelerContents {margin: 25px 0 10px 15px;}
+#selTeknikProjelerContents img {float: left;}
+#selTeknikProjelerContents p {float: left; margin: 0 0 0 25px;}
+#selTeknikProjelerContents #details {
+	float: left;
+	width: 373px;
+	font-size: 12px;
+	margin: 15px 0 0 25px;
+}
+#selTeknikProjelerContents .projeDetaySmallImages {margin: 10px 10px 0 0;}
+/* ===== footer ===== */
+.footerParent {background: url(../images/standard/footerRepeat.jpg) repeat; width: 100%;}
+.footer {
+	width: 100%;
+	height: 75px;
+	font-size: 12px;
+	color: #FFF;
+	background-color: #2A2F3D;
+}
+.footer .footerContainer {width: 1150px; margin: 0 auto;}
+.footer #copyright {float: left; margin: 30px 0 0 40px;}
+.footer #footerLinks {float: right; margin: 30px 40px 0 0;}
+.footer #footerLinks a {color: #FFF; margin: 0 10px;}
