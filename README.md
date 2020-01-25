@@ -13,7 +13,7 @@ I am not affiliated with any political party or any firm that is displayed in my
 
 ## Table of Contents:  
 
-* [Anatolia Airlines](./Airlines/Company)  
+* [Anatolia Airlines](./Airlines)  
 Two version website for an airline company. The project was an example, and so it wasn't finished.  
 
 * [Aksa Magnet CD](./AksaMagnetCD)  
