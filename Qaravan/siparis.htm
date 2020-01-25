@@ -1,0 +1,97 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<title>Aravan - Sipariş</title>
+<!-- Mobile Meta Tag -->
+	<meta name="HandheldFriendly" content="true" />
+	<meta name="MobileOptimized" content="320" />
+	<meta name="Viewport" content="width=device-width, initial-scale=1" />
+<!-- jQuery Mobile -->
+	<link rel="stylesheet" href="css/jquery.mobile-1.4.4.min.css" />
+<!-- Stylesheets -->
+	<link rel="stylesheet" href="css/custom.css" type="text/css" media="screen" />
+</head>
+<body>
+<div data-role="page" class="ui-body-b">
+<!-- sol panel buraya -->
+	<div data-role="panel" data-position="left" data-position-fixed="true" data-display="overlay" id="menupanel">
+		<ul>
+			<li><a href="index.htm" class="ui-btn ui-corner-all" title="Anasayfa">Anasayfa</a></li>
+			<li><a href="sepetim.htm" class="ui-btn ui-corner-all" title="Sepetim">Sepetim</a></li>
+			<li><a href="hakkimizda.htm" class="ui-btn ui-corner-all" title="Hakkımızda">Hakkımızda</a></li>
+			<li><a href="kargoveiade.htm" class="ui-btn ui-corner-all" title="İade ve Kargo">İade ve Kargo</a></li>
+			<li><a href="iletisim.htm" class="ui-btn ui-corner-all" title="İletişim">İletişim</a></li>
+		</ul>
+	</div>
+<!-- header buraya -->
+	<div data-role="header" class="ui-header-fixed">
+		<a href="#menupanel" class="ui-btn hide_text" id="menu">Menu</a>
+		<h1 id="logo"><img src="images/logo_aravan.png" width="143" height="34" alt="Aravan" /></h1>
+<!-- Sepetimi yada herhangi bir seyi gizlemek icin bu classi kullanilabilir: -->
+<!-- hidden -->
+<!-- burda sepetim linki gizleyip bu linki goruntuleyebilirsin -->
+		<a href="index.htm" class="ui-btn" id="sepetim"><span>Geri</span></a>
+	</div>
+<!-- nav bar buraya -->
+	<div data-role="navbar" id="header_navbar" class="ui-header-fixed">
+		<ul>
+			<li><a href="sonsayfa.htm">Yeni Sezon Ürünleri<br>Hemen Teslimat</a></li>
+			<li><a href="sonsayfa.htm">Ücretsiz Kargo<br>Havale İle</a></li>
+			<li><a href="sonsayfa.htm">Kapıda Ödeme<br>Ek 3,99 Ücret</a></li>
+		</ul>
+	</div>
+<!-- icerik buraya -->
+	<div role="main" class="ui-content">
+		<div class="siparis">
+			<div class="tutar"><span>49.99<br>TL</span></div>
+<!-- Burdaki asagidaki DIV lerden birini gozuklemesi gerekir -->
+<!-- Bu: -->
+			<div class="odeme ui-corner-all">
+				<h3>Kargo<br>Ücretsiz</h3>
+				<div>
+					<p>Havale Bilgilerimiz;</p>
+					<p>İş bankası 4654654</p>
+					<p>Hesap No: 365323</p>
+					<p>Sizi Arayıp bu bilgileri hatırlatacağız efendim</p>
+				</div>
+			</div>
+<!-- Yada bu: -->
+			<div class="odeme ui-corner-all" style="display: none;">
+				<h3>Ek Ücret<br>+3.99 TL</h3>
+				<div>
+					<p style="padding-top: 10px;">Siparişiniz;</p>
+					<p>Kapıda Ödeme Sistemiyle Gönderilecektir Efendim.</p>
+				</div>
+			</div>
+			<form action="siparis.htm" method="post">
+				<fieldset data-role="controlgroup" data-type="horizontal">
+					<legend>Siparişinizi Nasıl Ödemek İstersiniz Efendim</legend>
+<!-- burdaki $_POST['odeme_tipi'] 'nin degeri ya 'havale' yada 'kapida' olacak -->
+					<input type="radio" name="odeme_tipi" id="havale_odeme" value="havale" checked="checked" />
+					<label for="havale_odeme"><span>Havale ile Ödeme<br/>Kargo Ücretsizdir</span></label>
+					<input type="radio" name="odeme_tipi" id="kapida_odeme" value="kapida" />
+					<label for="kapida_odeme"><span>Kapıda Ödeme<br>Ek 3,99 TL Ücret</span></label>
+				</fieldset>
+				<label for="siparis_ad">Adınız ve Soyadınız Efendim</label>
+					<input type="text" name="siparis_ad" id="siparis_ad" />
+				<label for="siparis_tel">Cep Telefonu Numaranız Efendim</label>
+					<input type="tel" name="siparis_tel" id="siparis_tel" />
+				<label for="siparis_beden">Seçtiğiniz Ürün / Ürünlerin Bedenleri  Efendim</label>
+					<input type="text" name="siparis_beden" id="siparis_beden" />
+				<label for="siparis_adres">Son Olarak Adresiniz Efendim</label>
+					<textarea name="siparis_adres" id="siparis_adres"></textarea>
+				<input type="submit" value="Şimdi Sipariş Veriyorum" name="submit" />				
+			</form>
+		</div>
+	</div>
+	<div data-role="footer" id="footer">
+		<img src="images/footer_logo.png" width="24" height="22" />
+	</div>
+</div>
+<!-- Scripts (Library) -->
+<script src="js/jquery-1.10.2.min.js" type="text/javascript"></script>
+<script src="js/jquery.mobile-1.4.4.min.js" type="text/javascript"></script>
+<script src="js/custom.js" type="text/javascript"></script>
+</body>
+</html>

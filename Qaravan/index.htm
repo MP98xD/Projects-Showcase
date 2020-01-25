@@ -1,0 +1,155 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<title>Aravan - Anasayfa</title>
+<!-- Mobile Meta Tag -->
+	<meta name="HandheldFriendly" content="true" />
+	<meta name="MobileOptimized" content="320" />
+	<meta name="Viewport" content="width=device-width, initial-scale=1" />
+<!-- jQuery Mobile -->
+	<link rel="stylesheet" href="css/jquery.mobile-1.4.4.min.css" />
+<!-- Stylesheets -->
+	<link rel="stylesheet" href="css/custom.css" type="text/css" media="screen" />
+</head>
+<body>
+<div data-role="page" class="ui-body-b">
+<!-- sol panel buraya -->
+	<div data-role="panel" data-position="left" data-position-fixed="true" data-display="overlay" id="menupanel">
+		<ul>
+			<li><a href="index.htm" class="ui-btn ui-corner-all" title="Anasayfa">Anasayfa</a></li>
+			<li><a href="sepetim.htm" class="ui-btn ui-corner-all" title="Sepetim">Sepetim</a></li>
+			<li><a href="hakkimizda.htm" class="ui-btn ui-corner-all" title="Hakkımızda">Hakkımızda</a></li>
+			<li><a href="kargoveiade.htm" class="ui-btn ui-corner-all" title="İade ve Kargo">İade ve Kargo</a></li>
+			<li><a href="iletisim.htm" class="ui-btn ui-corner-all" title="İletişim">İletişim</a></li>
+		</ul>
+	</div>
+<!-- header buraya -->
+	<div data-role="header" class="ui-header-fixed">
+		<a href="#menupanel" class="ui-btn hide_text" id="menu">Menu</a>
+		<h1 id="logo"><img src="images/logo_aravan.png" width="143" height="34" alt="Aravan" /></h1>
+<!-- Sepetimi yada herhangi bir seyi gizlemek icin bu classi kullanilabilir: -->
+<!-- hidden -->
+		<a href="sepetim.htm" class="ui-btn" id="sepetim"><span>Sepetim</span></a>
+	</div>
+<!-- nav bar buraya -->
+	<div data-role="navbar" id="header_navbar" class="ui-header-fixed">
+		<ul>
+			<li><a href="sonsayfa.htm">Yeni Sezon Ürünleri<br>Hemen Teslimat</a></li>
+			<li><a href="sonsayfa.htm">Ücretsiz Kargo<br>Havale İle</a></li>
+			<li><a href="sonsayfa.htm">Kapıda Ödeme<br>Ek 3,99 Ücret</a></li>
+		</ul>
+	</div>
+<!-- icerik buraya -->
+	<div role="main" class="ui-content">
+		<div class="post">
+			<div class="kampanya ui-corner-all">
+<!-- Kampanya aciklamasi burda yazilcak -->
+				<a href="sonsayfa.htm" title="Kampanya aciklamasi buraya"><img src="images/kampanya.png" width="287" height="166" /></a>
+			</div>
+		</div>
+		<div class="post">
+			<div class="poster"><img src="images/profile_pic.png" width="24" height="25" /><span>Kot Gömlek</span></div>
+			<div class="kampanya gallery ui-corner-all">
+				<div class="wrapper">
+					<ul>
+						<li><a href="sonsayfa.htm" title="49.99"><img src="images/gallery/1/photo1.png" /></a></li>
+						<li><a href="sonsayfa.htm" title="59.99"><img src="images/gallery/1/photo1.png" /></a></li>
+						<li><a href="sonsayfa.htm" title="69.99"><img src="images/gallery/1/photo1.png" /></a></li>
+						<li><a href="sonsayfa.htm" title="79.99"><img src="images/gallery/1/photo1.png" /></a></li>
+					</ul>
+				</div>
+			</div>
+			<div class="social">
+				<div class="ui-grid-a">
+					<div class="ui-block-a"><a href="sonsayfa.htm" class="ui-btn ui-corner-all ui-icon-plus ui-btn-icon-left ui-nodisc-icon sepete_ekle">Sepete Ekledim</a></div>
+					<div class="share ui-block-b">
+						<div class="ui-grid-a">
+							<div class="ui-block-a"><a href="sonsayfa.htm" class="ui-btn ui-corner-all">Facebook</a></div>
+							<div class="ui-block-b"><a href="sonsayfa.htm" class="ui-btn ui-corner-all">Twitter</a></div>
+						</div>
+					</div>
+				</div>
+				<div class="aciklama"><img src="images/profile_pic.png" width="24" height="25" /><span>Dar kesimdir cepleri bol ve yıkandığında çekmez</span></div>
+				<div class="actions ui-grid-b">
+					<div class="ui-block-a"><a href="sonsayfa.htm" class="ui-btn begen ui-corner-all">Beğen</a></div>
+<!-- Burdaki href form name ozellige eklenecek -->
+					<div class="ui-block-b"><a href="#yorumyap_1" class="ui-btn yorum_yap ui-corner-all">Yorum Yap</a></div>
+				</div>
+			</div>
+		</div>
+		<div class="post">
+			<div class="poster"><img src="images/profile_pic.png" width="24" height="25" /><span>Kot Gömlek</span></div>
+			<div class="kampanya gallery ui-corner-all">
+				<div class="wrapper">
+					<ul>
+						<li><a href="sonsayfa.htm" title="46.99"><img src="images/gallery/2/photo1.png" /></a></li>
+						<li><a href="sonsayfa.htm" title="47.99"><img src="images/gallery/2/photo1.png" /></a></li>
+						<li><a href="sonsayfa.htm" title="48.99"><img src="images/gallery/2/photo1.png" /></a></li>
+						<li><a href="sonsayfa.htm" title="49.99"><img src="images/gallery/2/photo1.png" /></a></li>
+					</ul>
+				</div>
+			</div>
+			<div class="social">
+				<div class="ui-grid-a">
+					<div class="results"><span class="count">14</span> Kişi Bunu Beğendi</div>
+					<div class="ui-block-a"><a href="sonsayfa.htm" class="ui-btn ui-corner-all ui-icon-plus ui-btn-icon-left ui-nodisc-icon sepete_ekle">Sepete Ekledim</a></div>
+					<div class="share ui-block-b">
+						<div class="ui-grid-a">
+							<div class="ui-block-a"><a href="sonsayfa.htm" class="ui-btn ui-corner-all">Facebook</a></div>
+							<div class="ui-block-b"><a href="sonsayfa.htm" class="ui-btn ui-corner-all">Twitter</a></div>
+						</div>
+					</div>
+				</div>
+				<div class="aciklama"><img src="images/profile_pic.png" width="24" height="25" /><span>Dar kesimdir cepleri bol ve yıkandığında çekmez</span></div>
+				<div class="actions ui-grid-b">
+					<div class="ui-block-a"><a href="sonsayfa.htm" class="ui-btn begen ui-corner-all aktif">Beğen</a></div>
+					<div class="ui-block-b"><a href="#yorumyap_2" class="ui-btn yorum_yap ui-corner-all">Yorum Yap</a></div>
+				</div>
+			</div>
+		</div>
+		<div class="post">
+			<div class="poster"><img src="images/profile_pic.png" width="24" height="25" /><span>Kot Gömlek</span></div>
+			<div class="kampanya gallery ui-corner-all">
+				<div class="wrapper">
+					<ul>
+						<li><a href="sonsayfa.htm" title="49.69"><img src="images/gallery/1/photo1.png" /></a></li>
+						<li><a href="sonsayfa.htm" title="49.79"><img src="images/gallery/1/photo1.png" /></a></li>
+						<li><a href="sonsayfa.htm" title="49.89"><img src="images/gallery/1/photo1.png" /></a></li>
+						<li><a href="sonsayfa.htm" title="49.99"><img src="images/gallery/1/photo1.png" /></a></li>
+					</ul>
+				</div>
+			</div>
+			<div class="social">
+				<div class="ui-grid-a">
+					<div class="results"><span class="count">14</span> Kişi Bunu Beğendi</div>
+					<div class="ui-block-a"><a href="sonsayfa.htm" class="ui-btn ui-corner-all ui-icon-plus ui-btn-icon-left ui-nodisc-icon sepete_ekle">Sepete Ekledim</a></div>
+					<div class="share ui-block-b">
+						<div class="ui-grid-a">
+							<div class="ui-block-a"><a href="sonsayfa.htm" class="ui-btn ui-corner-all">Facebook</a></div>
+							<div class="ui-block-b"><a href="sonsayfa.htm" class="ui-btn ui-corner-all">Twitter</a></div>
+						</div>
+					</div>
+				</div>
+				<div class="aciklama"><img src="images/profile_pic.png" width="24" height="25" /><span>Dar kesimdir cepleri bol ve yıkandığında çekmez</span></div>
+				<div class="yorumlar">
+					<div class="yorum"><img src="images/musteri_yorumu.png" width="24" height="25" /><span class="yorumyapanadi">Tahir Ucuz</span><span class="yorumyapanyorum">Güzel Gözüküyor acaba beden sıkıntısı olurmu</span></div>
+					<div class="yorum"><img src="images/musteri_yorumu.png" width="24" height="25" /><span class="yorumyapanadi">Tahir Ucuz</span><span class="yorumyapanyorum">Güzel Gözüküyor acaba beden sıkıntısı olurmu</span></div>
+				</div>
+				<div class="actions ui-grid-b">
+					<div class="ui-block-a"><a href="sonsayfa.htm" class="ui-btn begen ui-corner-all aktif">Beğen</a></div>
+					<div class="ui-block-b"><a href="#yorumyap_2" class="ui-btn yorum_yap ui-corner-all aktif">Yorum Yap</a></div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div data-role="footer" id="footer">
+		<img src="images/footer_logo.png" width="24" height="22" />
+	</div>
+</div>
+<!-- Scripts (Library) -->
+<script src="js/jquery-1.10.2.min.js" type="text/javascript"></script>
+<script src="js/jquery.mobile-1.4.4.min.js" type="text/javascript"></script>
+<script src="js/custom.js" type="text/javascript"></script>
+</body>
+</html>

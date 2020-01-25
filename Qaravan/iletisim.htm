@@ -1,0 +1,80 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<title>Aravan - İletişim</title>
+<!-- Mobile Meta Tag -->
+	<meta name="HandheldFriendly" content="true" />
+	<meta name="MobileOptimized" content="320" />
+	<meta name="Viewport" content="width=device-width, initial-scale=1" />
+<!-- jQuery Mobile -->
+	<link rel="stylesheet" href="css/jquery.mobile-1.4.4.min.css" />
+<!-- Stylesheets -->
+	<link rel="stylesheet" href="css/custom.css" type="text/css" media="screen" />
+</head>
+<body>
+<div data-role="page" class="ui-body-b">
+<!-- sol panel buraya -->
+	<div data-role="panel" data-position="left" data-position-fixed="true" data-display="overlay" id="menupanel">
+		<ul>
+			<li><a href="index.htm" class="ui-btn ui-corner-all" title="Anasayfa">Anasayfa</a></li>
+			<li><a href="sepetim.htm" class="ui-btn ui-corner-all" title="Sepetim">Sepetim</a></li>
+			<li><a href="hakkimizda.htm" class="ui-btn ui-corner-all" title="Hakkımızda">Hakkımızda</a></li>
+			<li><a href="kargoveiade.htm" class="ui-btn ui-corner-all" title="İade ve Kargo">İade ve Kargo</a></li>
+			<li><a href="iletisim.htm" class="ui-btn ui-corner-all" title="İletişim">İletişim</a></li>
+		</ul>
+	</div>
+<!-- header buraya -->
+	<div data-role="header" class="ui-header-fixed">
+		<a href="#menupanel" class="ui-btn hide_text" id="menu">Menu</a>
+		<h1 id="logo"><img src="images/logo_aravan.png" width="143" height="34" alt="Aravan" /></h1>
+<!-- Sepetimi yada herhangi bir seyi gizlemek icin bu classi kullanilabilir: -->
+<!-- hidden -->
+		<a href="sepetim.htm" class="ui-btn" id="sepetim"><span>Sepetim</span></a>
+	</div>
+<!-- nav bar buraya -->
+	<div data-role="navbar" id="header_navbar" class="ui-header-fixed">
+		<ul>
+			<li><a href="sonsayfa.htm">Yeni Sezon Ürünleri<br>Hemen Teslimat</a></li>
+			<li><a href="sonsayfa.htm">Ücretsiz Kargo<br>Havale İle</a></li>
+			<li><a href="sonsayfa.htm">Kapıda Ödeme<br>Ek 3,99 Ücret</a></li>
+		</ul>
+	</div>
+	<div data-role="navbar" id="hakkinda_navbar" class="ui-header-fixed">
+		<ul>
+			<li><a href="hakkimizda.htm">Hakkımızda</a></li>
+			<li><a href="kargoveiade.htm">Kargo ve İade</a></li>
+			<li><a href="iletisim.htm">İletişim</a></li>
+		</ul>
+	</div>
+<!-- icerik buraya -->
+	<div role="main" class="ui-content">
+		<div class="hakkimizda post">
+			<h2>İletişim</h2>
+			<p><img src="images/q_logo.png" width="74" height="67" alt="Q" />İstanbul / Merter<br>Bu sosal düşünceyi beraber geliştirmek<br>için bize düşüncelerinizi  şimdi yazın.</p>
+			<div class="clear"></div>
+			<div class="iletisim_formu">
+				<form action="sonsayfa.htm" method="post">
+					<label for="iletisim_ad">Adınız ve Soyadınız Efendim</label>
+						<input type="text" name="iletisim_ad" id="iletisim_ad" />
+					<label for="iletisim_tel">Cep Telefonu Numaranız Efendim</label>
+						<input type="tel" name="iletisim_tel" id="iletisim_tel" />
+					<label for="iletisim_email">Mail adresiniz efendim</label>
+						<input type="email" name="iletisim_email" id="iletisim_email" />
+					<label for="iletisim_dusunce">Düşünceleriniz Efendim</label>
+						<textarea name="iletisim_dusunce" id="iletisim_dusunce"></textarea>
+					<input type="submit" value="Şimdi Gönderiyorum" name="submit" />
+				</form>
+			</div>
+		</div>
+	</div>
+	<div data-role="footer" id="footer">
+		<img src="images/footer_logo.png" width="24" height="22" />
+	</div>
+</div>
+<!-- Scripts (Library) -->
+<script src="js/jquery-1.10.2.min.js" type="text/javascript"></script>
+<script src="js/jquery.mobile-1.4.4.min.js" type="text/javascript"></script>
+<script src="js/custom.js" type="text/javascript"></script>
+</body>
+</html>

@@ -1,0 +1,95 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<title>Aravan - Sepetim</title>
+<!-- Mobile Meta Tag -->
+	<meta name="HandheldFriendly" content="true" />
+	<meta name="MobileOptimized" content="320" />
+	<meta name="Viewport" content="width=device-width, initial-scale=1" />
+<!-- jQuery Mobile -->
+	<link rel="stylesheet" href="css/jquery.mobile-1.4.4.min.css" />
+<!-- Stylesheets -->
+	<link rel="stylesheet" href="css/custom.css" type="text/css" media="screen" />
+</head>
+<body>
+<div data-role="page" class="ui-body-b">
+<!-- sol panel buraya -->
+	<div data-role="panel" data-position="left" data-position-fixed="true" data-display="overlay" id="menupanel">
+		<ul>
+			<li><a href="index.htm" class="ui-btn ui-corner-all" title="Anasayfa">Anasayfa</a></li>
+			<li><a href="sepetim.htm" class="ui-btn ui-corner-all" title="Sepetim">Sepetim</a></li>
+			<li><a href="hakkimizda.htm" class="ui-btn ui-corner-all" title="Hakkımızda">Hakkımızda</a></li>
+			<li><a href="kargoveiade.htm" class="ui-btn ui-corner-all" title="İade ve Kargo">İade ve Kargo</a></li>
+			<li><a href="iletisim.htm" class="ui-btn ui-corner-all" title="İletişim">İletişim</a></li>
+		</ul>
+	</div>
+<!-- header buraya -->
+	<div data-role="header" class="ui-header-fixed">
+		<a href="#menupanel" class="ui-btn hide_text" id="menu">Menu</a>
+		<h1 id="logo"><img src="images/logo_aravan.png" width="143" height="34" alt="Aravan" /></h1>
+<!-- Sepetimi yada herhangi bir seyi gizlemek icin bu classi kullanilabilir: -->
+<!-- hidden -->
+<!-- burda sepetim linki gizleyip bu linki goruntuleyebilirsin -->
+		<a href="index.htm" class="ui-btn" id="sepetim"><span>Geri</span></a>
+	</div>
+<!-- nav bar buraya -->
+	<div data-role="navbar" id="header_navbar" class="ui-header-fixed">
+		<ul>
+			<li><a href="sonsayfa.htm">Yeni Sezon Ürünleri<br>Hemen Teslimat</a></li>
+			<li><a href="sonsayfa.htm">Ücretsiz Kargo<br>Havale İle</a></li>
+			<li><a href="sonsayfa.htm">Kapıda Ödeme<br>Ek 3,99 Ücret</a></li>
+		</ul>
+	</div>
+<!-- icerik buraya -->
+	<div role="main" class="ui-content">
+		<div class="sepetim">
+			<div class="urun ui-grid-a">
+				<div class="ui-block-a"><img src="images/urunler/1.jpg" width="135" height="146" /></div>
+				<div class="ui-block-b">
+					<p class="urun_adi">Kot Pantolon-1</p>
+					<p class="urun_eski_fiyat">46.99 TL</p>
+					<p class="urun_fiyat">40.99 TL</p>
+				</div>
+				<div class="ui-block-a"></div>
+				<div class="ui-block-b"><a href="sepetim.htm" class="ui-btn ui-corner-all sepetten_cikar">Sepetimden Çıkar</a></div>
+			</div>
+			<div class="urun_tercihi_mesaji">
+				<p>Aşağıdaki ürünleri senin için ayırdım.</p>
+				<p>Fiyatında yardımcı oldum.</p>
+				<p>Umarım şimdi tercih edersin.</p>
+			</div>
+			<div class="urun ui-grid-a">
+				<div class="ui-block-a"><img src="images/urunler/1.jpg" width="135" height="146" /></div>
+				<div class="ui-block-b">
+					<p class="urun_adi">Kot Pantolon-1</p>
+					<p class="urun_eski_fiyat">46.99 TL</p>
+					<p class="urun_fiyat">40.99 TL</p>
+				</div>
+				<div class="ui-block-a"><a href="sepetim.htm" class="ui-btn ui-corner-all sepete_ekle">Sepete Ekliyorum</a></div>
+				<div class="ui-block-b"><a href="sepetim.htm" class="ui-btn ui-corner-all sepetten_cikar">Sepetimden Çıkar</a></div>
+			</div>
+			<div class="urun ui-grid-a">
+				<div class="ui-block-a"><img src="images/urunler/1.jpg" width="135" height="146" /></div>
+				<div class="ui-block-b">
+					<p class="urun_adi">Kot Pantolon-1</p>
+					<p class="urun_eski_fiyat">46.99 TL</p>
+					<p class="urun_fiyat">40.99 TL</p>
+				</div>
+				<div class="ui-block-a"><a href="sepetim.htm" class="ui-btn ui-corner-all sepete_ekle">Sepete Ekliyorum</a></div>
+				<div class="ui-block-b"></div>
+			</div>
+			<div class="tutar" style="float: none; margin: 2em auto;"><span>49.99<br>TL</span></div>
+			<a href="sepetim.htm" class="ui-btn ui-corner-all sepete_ekle">Şimdi Satın Alıyorum</a>
+		</div>
+	</div>
+	<div data-role="footer" id="footer">
+		<img src="images/footer_logo.png" width="24" height="22" />
+	</div>
+</div>
+<!-- Scripts (Library) -->
+<script src="js/jquery-1.10.2.min.js" type="text/javascript"></script>
+<script src="js/jquery.mobile-1.4.4.min.js" type="text/javascript"></script>
+<script src="js/custom.js" type="text/javascript"></script>
+</body>
+</html>
